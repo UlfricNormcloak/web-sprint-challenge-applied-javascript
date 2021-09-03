@@ -14,7 +14,7 @@ You are not allowed to collaborate during the sprint challenge.
 - [X] Open the assignment in Canvas and click on the "Set up git" option.
 - [X] Follow instructions to set up Codegrade's Webhook and Deploy Key.
 - [X] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [X] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
@@ -30,11 +30,11 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [X] Navigate to the root of the project with your command line.
+- [X] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [X] Run `npm start` to compile the project and serve it.
+- [X] Navigate Chrome to `http://localhost:3000`
+- [X] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
@@ -65,7 +65,16 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+Answer: The DOM (Document Object Model) is a Javascript object that contains every element on the page. The DOM is also built as a data structure that is referenced as a tree. There are parent and child elements, and this series of relationships can be used to follow the structure of the data. This entire object is referred to as the 'document'.
+
 2. What is an event?
+Answer: All user interactions on a website are considered events. For example, if a user clicks on something, or double-clicks, moves their mouse over a portion of the page, play a media file, these are all considered events.
+
 3. What is an event listener?
+Answer: An event listener (.addEventListener) is a method used to 'listen out for' and respond with some action. The listener takes two arguments; the first is the type of event to listen for, such as a 'click', which is one of the most common types. The second is a callback function, which essentially defines what the action will be if the type of event listened for is detected as having occurred.
+
 4. Why would we convert a NodeList into an Array?
+We might convert a NodeList into an Array if we need access to other array methods, such as .map, .filter, and .reduce. forEach is the only method available for use with a NodeList/array-like object.
+
 5. What is a component?
+Answer: A component is made up of HTNL, CSS, and Javascript and is a self-contained block of code that can be used repeatedly to create variants of the same thing, such as a button for a webpage, or a social media profile page that can be reused for each specific user because it pulls the user specific data from some other database or server. 
